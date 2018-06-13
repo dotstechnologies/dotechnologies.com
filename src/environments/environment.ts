@@ -8,7 +8,7 @@ export const environment = {
   production: false,
 
 
-  region: "us-east-1",
+  /*region: "us-east-1",
   identityPoolId: "us-east-1:75466aec-8274-46ef-a53c-4d5bdc2e8e4d",
   userPoolId: "us-east-1_XI6JbzMDn",
   clientId: "2r0kv6l3cuvnqtmkk75dc96epa",
@@ -31,6 +31,6 @@ export const environment = {
   // Function URL (recurringPaymentWebhook): https://us-central1-allstack-io-stripe-auth.cloudfunctions.net/recurringPaymentWebhook
   functionsURL: 'https://us-central1-allstack-io-stripe-auth.cloudfunctions.net',
   // Project Console: https://console.firebase.google.com/project/allstack-io-stripe-auth/overview
-  stripePublishable: 'pk_live_VWcv0eyhqLJiCfj6ROgsGLrl'
+  stripePublishable: 'pk_live_VWcv0eyhqLJiCfj6ROgsGLrl'*/
 
 };
