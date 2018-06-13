@@ -17,10 +17,7 @@ import { AgmCoreModule } from "@agm/core";
 // import { RecaptchaModule, RECAPTCHA_SETTINGS, RecaptchaSettings } from 'ng-recaptcha';
 // import { RecaptchaFormsModule } from 'ng-recaptcha/forms';
 // import { AuthModule } from "./auth/auth.module";
-import { CoreModule } from "./core/core.module";
 import { SharedModule } from "./shared/shared.module";
-import { PaymentModule } from "./payment/payment.module";
-import { DemoModule } from "./demo/demo.module";
 // import { NgxStripeModule } from "ngx-stripe";
 // import { AuthService } from "./service/auth.service";
 // import { AuthGuard } from "./service/auth-guard.service";
@@ -44,10 +41,7 @@ import { DemoModule } from "./demo/demo.module";
     BrowseCoursesModule,
     ExamplesModule,
     // AuthModule,
-    CoreModule,
-    SharedModule,
-    PaymentModule,
-    DemoModule
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

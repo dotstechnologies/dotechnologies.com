@@ -14,8 +14,6 @@ import { LocationStrategy, PlatformLocation, Location } from "@angular/common";
 import { NavbarComponent } from "./shared/navbar/navbar.component";
 import { version } from "punycode";
 // import { AuthService } from "./auth/auth.service";
-import { PaymentService } from "./payment/payment.service";
-import { AuthService } from "./core/auth.service";
 
 @Component({
   selector: "app-root",
@@ -33,7 +31,6 @@ export class AppComponent implements OnInit {
     private element: ElementRef,
     public location: Location,
     // public auth: AuthService,
-    private auth: AuthService, private pmt: PaymentService
   ) {
     // auth.handleAuthentication();
   }

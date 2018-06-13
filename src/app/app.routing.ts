@@ -19,13 +19,6 @@ import { RegisterComponent } from "./dots/register/register.component";
 import { NucleoiconsComponent } from "./browsecourses/nucleoicons/nucleoicons.component";
 import { PricingComponent } from "./dots/pricing/pricing.component";
 import { HomeComponent } from "./home/home.component";
-import { ChargeCardComponent } from "./demo/charge-card/charge-card.component";
-import { AuthGuard } from "./core/auth.guard";
-import { SaveCardComponent } from "./demo/save-card/save-card.component";
-import { SubscriptionPageComponent } from "./demo/subscription-page/subscription-page.component";
-import { StripeDashboardComponent } from "./demo/stripe-dashboard/stripe-dashboard.component";
-import { ConnectPageComponent } from "./demo/connect-page/connect-page.component";
-import { ConnectRedirectComponent } from "./payment/connect-redirect/connect-redirect.component";
 
 const routes: Routes = [
   // { path: "", redirectTo: "home", pathMatch: "full" },
@@ -33,12 +26,8 @@ const routes: Routes = [
   { path: 'about-us', component: AboutusComponent}, //, canActivate: [AuthGuard]
   { path: 'contact-us', component: ContactusComponent },
   { path: 'people', component: LandingComponent },
-  { path: 'dashboard', component: StripeDashboardComponent },
 
-  // Stripe Connect
-  { path: 'connect', component: ConnectPageComponent  },
-  { path: 'redirect', component: ConnectRedirectComponent },
-  
+ 
   { path: "browse-courses", component: BrowseCoursesComponent },
   { path: "sections", component: SectionsComponent },
   { path: "nucleoicons", component: NucleoiconsComponent },
